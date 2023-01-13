@@ -5,7 +5,7 @@ import { Inter } from '@next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-function CardTwo() {
+function Card() {
   return (
     <div>
       <a href="#" className="block">
@@ -41,18 +41,22 @@ function NavigationBar() {
         </div>
         <div className="flex flex-1 items-center justify-end">
           <nav aria-label="Site Nav" className="hidden lg:flex lg:gap-4 lg:text-xs lg:font-bold lg:uppercase lg:tracking-wide lg:text-gray-500">
-            <a href="/about" className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
+            <a 
+            href="/about" 
+            className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
               About
             </a>
-            <a href="/news" className="block h-16 borderwidth-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
+            <a href="/blog" 
+            className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
               Blog
             </a>
             <a
-              href="/products" className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
+              href="/projects" 
+              className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700">
               Projects
             </a>
             <a
-              href="/contact"
+              href="/resume"
               className="block h-16 border-b-4 border-transparent leading-[4rem] hover:border-current hover:text-red-700"
             >
               Resume
@@ -104,7 +108,7 @@ export default function Home() {
       <NavigationBar />
       <main className="max-w-md mx-auto p-8">
         <div className="block">
-          <CardTwo />
+          <Card/>
         </div>
       </main>
     </>
