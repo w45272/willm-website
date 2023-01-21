@@ -10,7 +10,7 @@ export default function NavigationBar() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </button>
-            <a href="#" className="flex">
+            <a href="/" className="flex">
               {/* <span className="sr-only">Logo</span>
               <span className="inline-block h-10 w-32 rounded-lg bg-gray-200"></span> */}
               <h1>Will Mingus</h1>

@@ -1,3 +1,7 @@
+import NavigationBar from "./components/NavigationBar";
+
 export default function Blog() {
-    return <div>Blog</div>
+    return(<>
+        <NavigationBar/>
+        </>);
 }

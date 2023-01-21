@@ -1,3 +1,7 @@
+import NavigationBar from "./components/NavigationBar";
+
 export default function Projects() {
-    return <div>Projects</div>
+    return (<>
+    <NavigationBar/>
+    </>);
 }

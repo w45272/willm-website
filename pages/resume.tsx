@@ -1,3 +1,7 @@
+import NavigationBar from "./components/NavigationBar";
+
 export default function Resume() {
-    return <div>Resume</div>
+    return(<>
+        <NavigationBar/>
+        </>);
 }
